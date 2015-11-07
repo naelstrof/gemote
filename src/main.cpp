@@ -1,6 +1,7 @@
 #include "lua.hpp"
 #include <vector>
 #include <list>
+#include <time.h>
 #include <string>
 #include <fstream>
 #include <algorithm>
