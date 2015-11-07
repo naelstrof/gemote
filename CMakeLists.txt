@@ -27,7 +27,7 @@ if ( "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang" OR
          # -Wno-unused-parameter: Don't error on unused parameters, required since we have function hooks
          #                        that have unused parameters.
          # -O#: Optimization level
-elseif()
+else()
     message( FATAL_ERROR "Your operating system isn't supported yet! CMake will now exit." )
 endif()
 
