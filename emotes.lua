@@ -9,6 +9,13 @@ outfile = "autoexec.cfg"
 filter = ""
 -- Shuffle the results?
 shuffle = true
+-- Prepend the alias names with what?
+-- Good to set this to something unique each time if you don't want
+-- your scripts overriding eachother.
+prepend = "t"
+-- Echo what you said to the console, useful for when emotes don't
+-- show up in the chatbox and you want to know what was said.
+echo = true
 
 AddEmote("drink a big bucket of shit", "speach/obeyyourthirstsync.ogg", true)
 AddEmote("drink a big bucket of horse dick", "speach/obeyyourthirst2.ogg", true)
